@@ -7,10 +7,24 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        bai: ['var(--font-bai)'],
+      },
+      fontSize: {
+        body: '1.125rem',
+      },
+
+      colors: {
+        'strong-cyan': 'hsl(171, 66%, 44%)',
+        'dark-cyan': 'hsl(171, 64%, 36%)',
+        'light-blue': 'hsl(233, 100%, 69%)',
+        'dark-blue': 'hsl(233, 50%, 53%)',
+        'dark-gray': 'hsl(210, 10%, 33%)',
+        'light-gray': 'hsl(201, 11%, 66%)',
+      },
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        desktop: ['url(./images/bg-header-desktop.png)'],
+        mobile: ['url(./images/bg-header-mobile.png)'],
       },
     },
   },
