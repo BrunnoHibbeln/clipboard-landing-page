@@ -2,10 +2,10 @@ import Image from 'next/image'
 
 import logo from '../images/logo.svg'
 
-import IosButton from './IosButton'
-import MacButton from './MacButton'
-import Paragraph from './Paragraph'
-import Subtitle from './Subtitle'
+import IosButton from './Button/IosButton'
+import MacButton from './Button/MacButton'
+import Paragraph from './Typograph/Paragraph'
+import Subtitle from './Typograph/Subtitle'
 
 export default function HomePage() {
   return (
