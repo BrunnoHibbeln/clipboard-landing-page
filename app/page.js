@@ -19,7 +19,7 @@ export default function Home() {
       <section className="flex h-fit flex-col items-center justify-center gap-14 px-8 pt-40 text-center duration-500 xl:w-full xl:p-0">
         <ToolsPage />
       </section>
-      <section className="flex h-fit flex-col items-center justify-center gap-14 pt-40 text-center duration-500 xl:w-full xl:pt-52">
+      <section className="flex h-fit w-full flex-col items-center justify-center gap-14 pt-40 text-center duration-500 xl:pt-52">
         <FooterPage />
       </section>
     </main>
