@@ -15,7 +15,7 @@ export default function DevicesPage() {
           snippets in a few simple clicks."
         />
       </article>
-      <Image src={Devices} alt="Devices Image" />
+      <Image className="lg:w-3/5" src={Devices} alt="Devices Image" />
     </>
   )
 }

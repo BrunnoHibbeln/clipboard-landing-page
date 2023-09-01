@@ -5,25 +5,25 @@ import FooterButton from './Button/FooterButton'
 
 export default function Footer() {
   return (
-    <footer className="static bottom-0 flex w-full flex-col items-center justify-center gap-9 bg-gray-100 py-12">
-      <Image className="w-14" src={Logo} alt="Logo Icon" />
-      <section className="flex flex-col gap-5">
-        <article className="flex flex-col gap-5">
+    <footer className="static bottom-0 flex w-full flex-col items-center justify-center gap-9 bg-gray-100 py-12 lg:flex-row lg:gap-64 lg:py-16">
+      <section className="flex flex-col items-center justify-center gap-5 lg:flex-row lg:gap-24">
+        <Image className="w-14 pb-10 lg:pb-0" src={Logo} alt="Logo Icon" />
+        <article className="flex flex-col gap-5 lg:items-start lg:justify-start">
           <FooterButton text="FAQs" />
           <FooterButton text="Contact Us" />
         </article>
-        <article className="flex flex-col gap-5">
+        <article className="flex flex-col gap-5 lg:items-start lg:justify-start">
           <FooterButton text="Privacy Policy" />
           <FooterButton text="Press Kit" />
         </article>
-        <article>
+        <article className="lg:items-start lg:justify-start">
           <FooterButton text="Install Guide" />
         </article>
       </section>
       <section className="flex flex-row gap-8 pt-5">
         <button>
           <svg
-            className="fill-dark-gray hover:fill-strong-cyan"
+            className="fill-dark-gray duration-300 hover:fill-strong-cyan"
             width="24"
             height="24"
             xmlns="http://www.w3.org/2000/svg"
@@ -33,7 +33,7 @@ export default function Footer() {
         </button>
         <button>
           <svg
-            className="fill-dark-gray hover:fill-strong-cyan"
+            className="fill-dark-gray duration-300 hover:fill-strong-cyan"
             width="24"
             height="20"
             xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +43,7 @@ export default function Footer() {
         </button>
         <button>
           <svg
-            className="fill-dark-gray hover:fill-strong-cyan"
+            className="fill-dark-gray duration-300 hover:fill-strong-cyan"
             width="24"
             height="24"
             xmlns="http://www.w3.org/2000/svg"

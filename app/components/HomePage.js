@@ -25,7 +25,7 @@ export default function HomePage() {
             Instantly access your clipboard on all your devices."
           />
         </article>
-        <section className="flex w-full flex-col gap-7">
+        <section className="flex w-full flex-col justify-center gap-7 lg:flex-row">
           <IosButton />
           <MacButton />
         </section>
