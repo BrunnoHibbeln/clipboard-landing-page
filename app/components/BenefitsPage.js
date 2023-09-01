@@ -8,12 +8,12 @@ export default function BenefitsPage() {
   return (
     <>
       <Image
-        className="lg:static lg:left-0 lg:w-[45%]"
+        className="xl:static xl:left-0 xl:w-[45%]"
         src={Computer}
         alt="Computer Image"
       />
 
-      <section className="flex flex-col items-start gap-16 lg:w-[42rem] lg:pr-52 lg:pt-24">
+      <section className="flex flex-col items-start gap-16 xl:w-[42rem] xl:pr-52 xl:pt-24">
         <article className="flex flex-col gap-3">
           <Subtitle text="Quick Search" />
           <Paragraph

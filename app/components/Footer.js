@@ -5,18 +5,18 @@ import FooterButton from './Button/FooterButton'
 
 export default function Footer() {
   return (
-    <footer className="static bottom-0 flex w-full flex-col items-center justify-center gap-9 bg-gray-100 py-12 lg:flex-row lg:gap-64 lg:py-16">
-      <section className="flex flex-col items-center justify-center gap-5 lg:flex-row lg:gap-24">
-        <Image className="w-14 pb-10 lg:pb-0" src={Logo} alt="Logo Icon" />
-        <article className="flex flex-col gap-5 lg:items-start lg:justify-start">
+    <footer className="static bottom-0 flex w-full flex-col items-center justify-center gap-9 bg-gray-100 py-12 xl:flex-row xl:gap-64 xl:py-16">
+      <section className="flex flex-col items-center justify-center gap-5 xl:flex-row xl:gap-24">
+        <Image className="w-14 pb-10 xl:pb-0" src={Logo} alt="Logo Icon" />
+        <article className="flex flex-col gap-5 xl:items-start xl:justify-start">
           <FooterButton text="FAQs" />
           <FooterButton text="Contact Us" />
         </article>
-        <article className="flex flex-col gap-5 lg:items-start lg:justify-start">
+        <article className="flex flex-col gap-5 xl:items-start xl:justify-start">
           <FooterButton text="Privacy Policy" />
           <FooterButton text="Press Kit" />
         </article>
-        <article className="lg:items-start lg:justify-start">
+        <article className="xl:items-start xl:justify-start">
           <FooterButton text="Install Guide" />
         </article>
       </section>
